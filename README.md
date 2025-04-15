@@ -24,12 +24,13 @@
 4. Running the Application:
    ```bash
    npm run dev
+   
 ## Link Penting :
 1. API Dokumentasi :
     - Swagger : http://localhost:3000/api-docs
     - POSTMAN : https://documenter.getpostman.com/view/31826789/2sB2ca8LFS#a84ce7ab-2dbb-42fe-81cb-c2acfee93b6f
       
-2.API Aplikasi : http://localhost:3000/
+2. API Aplikasi : http://localhost:3000/
 
    
 
