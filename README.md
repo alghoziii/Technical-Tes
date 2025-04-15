@@ -3,9 +3,9 @@ This is a Node.js backend API for an ecommerce system, built with:
 
 
 
-# Ecommerce API - Backend Developer Test!⚽
+# Ecommerce API - Backend Developer Test!
 
-## Teknologi Kece Bro! 🚀
+## Teknologi! 
 
 - **Express.js**
 - **Drizzle ORM**
