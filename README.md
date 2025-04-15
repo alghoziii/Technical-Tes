@@ -1,13 +1,13 @@
 # Ecommerce API - Backend Developer Test!
 
-## Teknologi! 
+## Teknologi 
 
 - **Express.js**
 - **Drizzle ORM**
 - **PostgreSQL**
 - **Swagger UI for documentation**
 
-  ## Usage
+  ## Instalasi
 
 1. Clone the repository:
 
@@ -17,16 +17,19 @@
 2. Install dependencies:
    ```bash
    npm install
-
-3. Create .env file :
-
-  ```bash
-  DATABASE_URL=postgres://username:password@localhost:5432/ecommerce_db
-  PORT=3000
-
+3. Create .env file:
+   ```bash
+   DATABASE_URL=postgres://username:password@localhost:5432/ecommerce_db
+    PORT=3000
 4. Running the Application:
-    ```bash
+   ```bash
    npm run dev
+5. Link Penting :
+   ```bash
+    API Dokumentasi : http://localhost:3000/api-docs
+    API Aplikasi : http://localhost:3000/
+
+   
 
 
 
