@@ -1,5 +1,4 @@
-Overview
-This is a Node.js backend API for an ecommerce system, built with:
+
 
 
 
