@@ -19,12 +19,15 @@
    npm install
 
 3. Create .env file :
-  ``bash
+
+  ```bash
   DATABASE_URL=postgres://username:password@localhost:5432/ecommerce_db
   PORT=3000
 
 4. Running the Application:
     ```bash
    npm run dev
+
+
 
 
