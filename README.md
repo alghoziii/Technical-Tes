@@ -22,11 +22,12 @@
    ```bash
    npm install
 
-3. Running the Application:
+3. Create .env file :
+  ```bash
+  DATABASE_URL=postgres://username:password@localhost:5432/ecommerce_db
+  PORT=3000
+4. Running the Application:
    ```bash
    npm run dev
 
-4.Create .env file :
-```bash
-DATABASE_URL=postgres://username:password@localhost:5432/ecommerce_db
-PORT=3000
+
