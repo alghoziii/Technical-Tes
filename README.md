@@ -21,16 +21,32 @@
    ```bash
    DATABASE_URL=postgres://username:password@localhost:5432/ecommerce_db
     PORT=3000
-4. Running the Application:
+4. Create table products and orders:
+   ```bash
+      CREATE TABLE products ( 
+      id SERIAL PRIMARY KEY, 
+      name VARCHAR(100), 
+      description TEXT, 
+      price DECIMAL(10, 2) 
+      ); 
+      CREATE TABLE orders ( 
+      id SERIAL PRIMARY KEY, 
+      product_id INT REFERENCES products(id) ON DELETE CASCADE, 
+      quantity INT, 
+      total_price DECIMAL(10, 2), 
+      created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP 
+      ); 
+   
+5. Running the Application:
    ```bash
    npm run dev
    
 ## Link Penting :
 1. API Dokumentasi :
+   
     - Swagger : http://localhost:3000/api-docs
-    - POSTMAN : https://documenter.getpostman.com/view/31826789/2sB2ca8LFS#a84ce7ab-2dbb-42fe-81cb-c2acfee93b6f
       
-2. API Aplikasi : http://localhost:3000/
+3. API Aplikasi : http://localhost:3000/
 
    
 
